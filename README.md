@@ -13,6 +13,7 @@ Datawhale 致力于构建“For the learner, 构建 AI 学习者的开源社区�
 
 本次课程将带领大家从零开始，手搓一台属于自己的 AI 机器人。
 
+<img src="docs/27dfef2665879ff38955ceff249ef00b.png" alt="WhaleBot交流群" width="600">
 👉 **[点击立即报名跟班学习](xxxx)** (填写表单/跳转链接)
 
 > 🌟 **欢迎加入【星芯工坊】社区喵**
