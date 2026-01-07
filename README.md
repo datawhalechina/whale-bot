@@ -20,7 +20,8 @@ Datawhale 致力于构建“For the learner, 构建 AI 学习者的开源社区�
 
 
 
-<img src="docs/27dfef2665879ff38955ceff249ef00b.png" alt="WhaleBot交流群" width="600">
+<img width="400" height="400" alt="a497525bfc7f890d2fe31357c8119220" src="https://github.com/user-attachments/assets/a3c197dc-f527-4aca-8c82-df68392f9ef7" />
+
 👉 **[点击立即报名跟班学习](xxxx)** (填写表单/跳转链接)
 
 > 🌟 **欢迎加入【星芯工坊】社区喵**
