@@ -20,11 +20,11 @@ Datawhale 致力于构建“For the learner, 构建 AI 学习者的开源社区�
 
 👉DataWhale跟班学习群👈
 
-        <img width="400" height="400" alt="a497525bfc7f890d2fe31357c8119220" src="https://github.com/user-attachments/assets/a3c197dc-f527-4aca-8c82-df68392f9ef7" />
+  <img width="400" height="400" alt="a497525bfc7f890d2fe31357c8119220" src="https://github.com/user-attachments/assets/a3c197dc-f527-4aca-8c82-df68392f9ef7" />
 
 如果这一期跟班学习人数已满怎么办？没关系，你可以加入我们的项目交流微信群，同样可以得到技术和硬件支持！
 
-        <img width="396" height="396" alt="image" src="https://github.com/user-attachments/assets/99fd9e6a-3d8f-402e-8d46-a8bf989573f7" />
+  <img width="396" height="396" alt="image" src="https://github.com/user-attachments/assets/99fd9e6a-3d8f-402e-8d46-a8bf989573f7" />
 
 ### 🛍️ 新手无忧套件
 
