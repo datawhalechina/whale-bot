@@ -70,7 +70,7 @@ WhaleBot 不仅仅是一个遥控车，它是一个拥有“大脑”和“表�
 
 我们编写了保姆级的开发文档，涵盖硬件选型、PCB 设计原理、代码逐行解析及组装教程。
 
-👉 **[点击查看飞书详细开发文档](请在此处填入你的飞书文档链接)** 👈
+👉 **https://ycnu1pe9v6kj.feishu.cn/wiki/GoBywGiJ1iZBcBkm5xjcXFJunvg?from=from_copylink** 👈
 
 ---
 
