@@ -16,13 +16,11 @@ Datawhale 致力于构建“For the learner, 构建 AI 学习者的开源社区�
 
 我们编写了保姆级的开发教程，涵盖硬件选型、PCB 设计原理、代码逐行解析及组装教程，并且会在后续配上视频教程。
 
-👉 datawhale官网教程链接**https://www.datawhale.cn/learn/summary/268** 👈
+👉 DataWhale官网教程链接**https://www.datawhale.cn/learn/summary/268** 👈
 
-
-
+👉DataWhale跟班学习群👈
 <img width="400" height="400" alt="a497525bfc7f890d2fe31357c8119220" src="https://github.com/user-attachments/assets/a3c197dc-f527-4aca-8c82-df68392f9ef7" />
 
-👉 **[点击立即报名跟班学习](xxxx)** (填写表单/跳转链接)
 
 > 🌟 **欢迎加入【星芯工坊】社区喵**
 >
