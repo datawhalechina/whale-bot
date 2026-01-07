@@ -4,21 +4,21 @@
 
 ---
 
-## 🌟 社区与特别活动 (Special Events)
-
 ### 🤝 Datawhale x 星芯工坊 | AI 硬件跟班学习
 
 ## 📚 开发教程 (Documentation)
+
+本项目联合国内最大的 AI 开源社区 **Datawhale** 发起【AI 硬件入门跟班学习】活动！
+
+Datawhale 致力于构建“For the learner, 构建 AI 学习者的开源社区”，汇聚了众多 AI 领域的专家与爱好者。
+
+本次课程将带领大家从零开始，手搓一台属于自己的 AI 机器人。
 
 我们编写了保姆级的开发教程，涵盖硬件选型、PCB 设计原理、代码逐行解析及组装教程，并且会在后续配上视频教程。
 
 👉 datawhale官网教程链接**https://www.datawhale.cn/learn/summary/268** 👈
 
 
-本项目联合国内最大的 AI 开源社区 **Datawhale** 发起【AI 硬件入门跟班学习】活动！
-Datawhale 致力于构建“For the learner, 构建 AI 学习者的开源社区”，汇聚了众多 AI 领域的专家与爱好者。
-
-本次课程将带领大家从零开始，手搓一台属于自己的 AI 机器人。
 
 <img src="docs/27dfef2665879ff38955ceff249ef00b.png" alt="WhaleBot交流群" width="600">
 👉 **[点击立即报名跟班学习](xxxx)** (填写表单/跳转链接)
