@@ -8,6 +8,13 @@
 
 ### 🤝 Datawhale x 星芯工坊 | AI 硬件跟班学习
 
+## 📚 开发教程 (Documentation)
+
+我们编写了保姆级的开发教程，涵盖硬件选型、PCB 设计原理、代码逐行解析及组装教程，并且会在后续配上视频教程。
+
+👉 datawhale官网教程链接**https://www.datawhale.cn/learn/summary/268** 👈
+
+
 本项目联合国内最大的 AI 开源社区 **Datawhale** 发起【AI 硬件入门跟班学习】活动！
 Datawhale 致力于构建“For the learner, 构建 AI 学习者的开源社区”，汇聚了众多 AI 领域的专家与爱好者。
 
@@ -64,15 +71,7 @@ WhaleBot 不仅仅是一个遥控车，它是一个拥有“大脑”和“表�
 *   **高效供电**：板载 TPS5430 工业级降压芯片，将 12V 电池电压高效转换为 5V，不仅发热低，还能为功放提供澎湃动力。
 *   **干扰隔离**：针对音频电路做了专门的电源隔离设计，最大程度减少电机转动时对麦克风和喇叭的底噪干扰。
 
----
 
-## 📚 开发文档 (Documentation)
-
-我们编写了保姆级的开发文档，涵盖硬件选型、PCB 设计原理、代码逐行解析及组装教程。
-
-👉 **https://ycnu1pe9v6kj.feishu.cn/wiki/GoBywGiJ1iZBcBkm5xjcXFJunvg?from=from_copylink** 👈
-
----
 
 ## 🛠️ 硬件架构
 
