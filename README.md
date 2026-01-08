@@ -65,8 +65,6 @@ ps：若自行打板请参照hardware/Bom表购买相关电子元件并自行焊
 <img width="1035" height="1013" alt="image" src="https://github.com/user-attachments/assets/6d8616cf-2cc3-4750-9be2-da74c710cbc2" />
 代码文件位于firmware/WhaleBot_Main.ino。
 
-### 三.天文asrpro及串口屏
-
 ---
 
 ## 🤝 贡献与致谢
