@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>&#x1f399;&#xfe0f; ASRPRO 2&period;0 &plus; &#x5929;&#x95ee; Block &#x5f00;&#x53d1;&#x6307;&#x5357;</title>
+            <style>
+/* From extension vscode.github */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.vscode-dark img[src$=\#gh-light-mode-only],
+.vscode-light img[src$=\#gh-dark-mode-only],
+.vscode-high-contrast:not(.vscode-high-contrast-light) img[src$=\#gh-light-mode-only],
+.vscode-high-contrast-light img[src$=\#gh-dark-mode-only] {
+	display: none;
+}
+
+</style>
+            
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+<style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        <style>
+.task-list-item {
+    list-style-type: none;
+}
+
+.task-list-item-checkbox {
+    margin-left: -20px;
+    vertical-align: middle;
+    pointer-events: none;
+}
+</style>
+<style>
+:root {
+  --color-note: #0969da;
+  --color-tip: #1a7f37;
+  --color-warning: #9a6700;
+  --color-severe: #bc4c00;
+  --color-caution: #d1242f;
+  --color-important: #8250df;
+}
+
+</style>
+<style>
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-note: #2f81f7;
+    --color-tip: #3fb950;
+    --color-warning: #d29922;
+    --color-severe: #db6d28;
+    --color-caution: #f85149;
+    --color-important: #a371f7;
+  }
+}
+
+</style>
+<style>
+.markdown-alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 16px;
+  color: inherit;
+  border-left: .25em solid #888;
+}
+
+.markdown-alert>:first-child {
+  margin-top: 0
+}
+
+.markdown-alert>:last-child {
+  margin-bottom: 0
+}
+
+.markdown-alert .markdown-alert-title {
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  line-height: 1
+}
+
+.markdown-alert .markdown-alert-title .octicon {
+  margin-right: 0.5rem;
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-alert.markdown-alert-note {
+  border-left-color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-note .markdown-alert-title {
+  color: var(--color-note);
+}
+
+.markdown-alert.markdown-alert-important {
+  border-left-color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-important .markdown-alert-title {
+  color: var(--color-important);
+}
+
+.markdown-alert.markdown-alert-warning {
+  border-left-color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-warning .markdown-alert-title {
+  color: var(--color-warning);
+}
+
+.markdown-alert.markdown-alert-tip {
+  border-left-color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-tip .markdown-alert-title {
+  color: var(--color-tip);
+}
+
+.markdown-alert.markdown-alert-caution {
+  border-left-color: var(--color-caution);
+}
+
+.markdown-alert.markdown-alert-caution .markdown-alert-title {
+  color: var(--color-caution);
+}
+
+</style>
+        
+        </head>
+        <body class="vscode-body vscode-light">
+            <h1 id="️-asrpro-20--天问-block-开发指南">🎙️ ASRPRO 2.0 + 天问 Block 开发指南</h1>
+<p><img src="https://img.shields.io/badge/Hardware-ASRPRO%202.0-blue" alt="Badge"> <img src="https://img.shields.io/badge/Software-Tianwen%20Block-green" alt="Badge"> <img src="https://img.shields.io/badge/Docs-v1.0-orange" alt="Badge"></p>
+<p>本文档旨在为开发者提供 ASRPRO 2.0 语音模块与天问 Block 开发平台的集成概览。重点阐述系统架构、核心运行逻辑以及外设通信的基础配置。</p>
+<hr>
+<h2 id="1-平台概述-overview">1. 平台概述 (Overview)</h2>
+<h3 id="-asrpro-20-硬件平台">🧩 ASRPRO 2.0 硬件平台</h3>
+<p>ASRPRO 是一款高度集成的离线语音识别开发板，专为语音交互场景设计。其硬件架构具有以下特点：</p>
+<ul>
+<li><strong>核心集成</strong>：板载高性能语音处理模块，内置神经网络加速单元。</li>
+<li><strong>声学前端</strong>：集成高灵敏度麦克风接口与功率放大器（Power Amp），支持直接驱动扬声器。</li>
+<li><strong>丰富外设</strong>：
+<ul>
+<li><strong>通信接口</strong>：集成串口 (UART)、IIC 总线。</li>
+<li><strong>控制与采集</strong>：提供 ADC（模数转换）、硬件定时器等资源。</li>
+</ul>
+</li>
+<li><strong>主要用途</strong>：广泛应用于离线语音识别、简单的语音对话交互以及智能家居控制。</li>
+</ul>
+<h3 id="-天问-block-软件平台">💻 天问 Block 软件平台</h3>
+<p>天问 Block (Tianwen Block) 是 ASRPRO 系列的官方开发环境，旨在通过图形化界面降低开发门槛。</p>
+<ul>
+<li><strong>编程模式</strong>：采用类 Sketch、Mixly 的积木式图形化编程界面。</li>
+<li><strong>功能实现</strong>：支持通过拖拽积木实现复杂的逻辑控制，底层自动编译为高效的执行代码。</li>
+</ul>
+<hr>
+<h2 id="2-核心运行机制-core-mechanism">2. 核心运行机制 (Core Mechanism)</h2>
+<p>理解 ASRPRO 的程序生命周期是开发的关键。在天问 Block 环境下，系统的执行逻辑遵循以下严格顺序：</p>
+<blockquote>
+<p><strong>初始化阶段</strong>
+系统上电后，首先执行<strong>上电初始化</strong>，紧接着执行<strong>系统应用初始化</strong>。</p>
+</blockquote>
+<blockquote>
+<p><strong>正常运行阶段</strong>
+完成初始化后，系统进入正常运行状态（主循环），处于持续监听模式。</p>
+</blockquote>
+<blockquote>
+<p><strong>事件触发机制</strong>
+当系统检测到<strong>语音唤醒</strong>或识别到预设的<strong>命令词</strong>时，会执行 <code>asrcore</code> 核心程序一次。所有的语音识别后处理逻辑（如回复语播放、信号输出）均应在此事件中实现。</p>
+</blockquote>
+<hr>
+<h2 id="3-外设与通信配置-peripherals--communication">3. 外设与通信配置 (Peripherals &amp; Communication)</h2>
+<p>本项目主要利用 <strong>串口 (UART)</strong> 外设实现 ASRPRO 与外部设备（如串口屏、ESP32-S3 主控）的数据交互。</p>
+<h3 id="-串口资源概览">🔌 串口资源概览</h3>
+<p>ASRPRO 硬件上共包含 <strong>3 个独立串口</strong>，开发者需根据实际需求进行配置。</p>
+<h3 id="️-配置规范">⚙️ 配置规范</h3>
+<p>在使用串口外设前，必须在初始化阶段完成以下参数定义：</p>
+<ol>
+<li>
+<p><strong>初始化要求</strong>：</p>
+<ul>
+<li>串口功能默认关闭，必须在程序启动时显式执行初始化模块。</li>
+</ul>
+</li>
+<li>
+<p><strong>波特率配置</strong>：</p>
+<ul>
+<li>支持配置为固定的标准波特率档位1200，4800，9600，19200，38400，57600，115200，推荐配置为最高115200。</li>
+<li><em>注意：通信双方的波特率必须保持严格一致。</em></li>
+</ul>
+</li>
+<li>
+<p><strong>引脚定义</strong>：</p>
+<ul>
+<li>串口的 TX/RX 引脚由硬件外设控制器直接决定。</li>
+<li><strong>不可修改性</strong>：引脚映射是固定的，在使用时，需要注意和现有的引脚冲突情况。</li>
+</ul>
+</li>
+</ol>
+<p>你好</p>
+
+            
+            
+        </body>
+        </html>
