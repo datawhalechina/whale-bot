@@ -73,7 +73,7 @@ ps：若自行打板请参照hardware/Bom表购买相关电子元件并自行焊
 
 <img width="397" height="397" alt="image" src="https://github.com/user-attachments/assets/97f338a7-257a-4607-9d25-f6e582761c53" />
                                                 
-                                                 实验室的开发者们
+    实验室的开发者们
 
 开发者名单
 
