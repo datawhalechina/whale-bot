@@ -72,11 +72,15 @@ ps：若自行打板请参照hardware/Bom表购买相关电子元件并自行焊
 本项目由MeetAI实验室发起并完成项目开发，历时9个月最终成功制作出WhaleBot AI鲸鱼小车，并制作了一套完整的教程。在此衷心感谢Datawhale社区，全体参与开发的小伙伴，提供帮助的指导老师和同仁们。MeetAI实验室是来自福州大学的计算机学院的实验室，创立于2024年，致力于打造一个有趣好玩多元的104。
 
 <img width="397" height="397" alt="image" src="https://github.com/user-attachments/assets/97f338a7-257a-4607-9d25-f6e582761c53" />
+                                                
                                                  实验室的开发者们
 
 开发者名单
+
 项目开发：林镐轩，尚启峰，解皓喆
+
 二次开发：Neil·Bauman，猫猫草，gtxylt，kyle
+
 教程制作：林镐轩，kyle，小班，青莳与空，Neil·Bauman，猫猫草，李诗语，刘宣佑
 
 
