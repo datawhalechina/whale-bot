@@ -81,7 +81,7 @@ ps：若自行打板请参照hardware/Bom表购买相关电子元件并自行焊
 
 项目开发：林镐轩，尚启峰，解皓喆
 
-二次开发：Neil·Bauman，猫猫草，gtxylt，kyle，林镐轩
+二次开发：林镐轩，Neil·Bauman，猫猫草，gtxylt，kyle
 
 教程制作：林镐轩，kyle，小班，青莳与空，Neil·Bauman，猫猫草，李诗语，刘宣佑
 
